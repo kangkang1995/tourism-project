@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+body{font:12px solid "微软雅黑";color:#000000;}
+a{text-decoration:none;color:#286ecd;}
+ul,li{margin:0;padding:0;list-style:none;}
+p{margin:0px;}
+.dingwei{position:fixed;top:300px;right:200px;z-index:2;}
+.dingwei a{display:block;height:auto;width:100px;text-align:right;margin-top:5px;}
+
+.header{width:970px;height:28px;margin:0 auto;line-height:28px; text-align:right;padding-right:30px;font-size:12px;}
+.header a{width:350px; margin:0 5px; font-size:12px;} 
+.header a:hover{text-decoration:underline;}
+
+.nav{width:100%;height:35px;background-color:#4688c7;}
+.nav .navigation{width:1000px;height:35px;margin:0 auto;background-color:#4688c7;}
+.nav .navigation ul{width:570px;_width:750px;float:right;}
+.nav .navigation ul li{float:left;height:35px;_width:150px;_text-align:center;}
+.nav .navigation a{color:#ffffff;display:block; width:auto; height:35px;line-height:35px;font-size:18px;padding:0 30px;}
+.nav .navigation a.choose{background:#b9d236;}
+.nav .navigation a:hover{background-color:#b9d236;}
+
+.banner{width:100%;height:808px;background:url(../images/banner.jpg) no-repeat top center;}
+
+.main{width:100%;height:2936px;background:url(../images/bg.jpg) no-repeat top center;}
+.neirong{width:1000px;height:2936px;margin:0 auto;position:relative;overflow:hidden;background:url(../images/bg.jpg) no-repeat top center;}
+.shanshui{width:999px;height:739px;position:absolute;top:210px;left:8px;}
+.wenhua{width:999px;height:739px;position:absolute;top:1179px;left:8px;}
+.haidao{width:999px;height:739px;position:absolute;top:2148px;left:8px;}
+
+.one{width:323px;height:364px;margin:0 10px 10px 0;_margin:0 5px 10px 0;float:left;background:#ffffff; overflow:hidden;}
+.tu{margin:7px;}
+figure {
+	overflow: hidden;
+	width: 311px;
+	height: 228px;
+}
+
+figure.effect-chico img {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.effect-chico:hover img {
+	-webkit-transform: scale(1.12);
+	transform: scale(1.12);
+}
+
+.wenzi{margin:25px 20px 20px 20px;}
+.wenzi p{font-size:18px;width:288px;height:50px;line-height:25px;margin-top:22px 0 12px 0;}
+.wenzi strong{font-size:30px;color:#e65634;padding-left:5px;}
+.wenzi s{color:#999999;margin-left:10px;}
+
+.foot{width:1000px;height:80px;margin:0 auto;}
+.foot p{color:#666464;text-align:center;margin:15px 0;}
+
